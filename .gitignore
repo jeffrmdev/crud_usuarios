@@ -1,10 +1,12 @@
 # .gitignore
+.vscode
 
 # Carpeta virtualenv
 venv/
 
 # Archivos de configuración local
 *.env
+
 
 # Archivos de configuración de Django
 *.pyc
