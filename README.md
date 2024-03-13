@@ -1,17 +1,47 @@
-# Nombre de tu Aplicación
+# CRUD_Usuarios
 
-Breve descripción o resumen de tu aplicación.
+Esta aplicación permite crear, leer, actualizar y eliminar usuarios de forma rápida y sencilla
 
-## Instalación
+## Requisitos
 
 Sigue estos pasos para instalar y configurar la aplicación en tu entorno local.
 
+### Copiar el repositorio y configurar entorno virtual
+```
+git clone https://github.com/jeffrmdev/crud_usuarios.git
+cd <ruta_del_proyecto>
+pip install pipenv
+pipenv --venv
+```
+
+###Instalar dependencias
+
+```
+pip install -r requirements.txt
+
+```
+### Aplicar migraciones y creación del usuario
+
+```
+python manage.py migrate
+python manage.py createsuperuser #opcional
+
+```
+
+### Ejecutar la aplicacion
+```
+python manage.py runserver
+``` 
+
+Si todo salió bien, la aplicación se ejecutará en la siguiente dirección:
+http://127.0.0.1:8000/
+
+
+
 ### Requisitos Previos
 
-Asegúrate de tener instalado Python y pip en tu sistema. Puedes descargarlos desde [python.org](https://www.python.org/downloads/).
+Instalar git desde: https://git-scm.com/downloads
+Instalar python 3.12 en tu ordenador desde:
+https://www.python.org/downloads/
+Seleccionar el instalador según el sistema operativo
 
-### Clonar el Repositorio
-
-```bash
-git clone https://github.com/tu-usuario/tu-aplicacion.git
-cd tu-aplicacion
