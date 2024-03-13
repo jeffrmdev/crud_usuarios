@@ -39,8 +39,10 @@ http://127.0.0.1:8000/
 
 ### Requisitos Previos
 
-Instalar git desde: https://git-scm.com/downloads
-Instalar python 3.12 en tu ordenador desde:
+Instalar git desde:  
+https://git-scm.com/downloads  
+Instalar python 3.12 en tu ordenador desde:  
 https://www.python.org/downloads/
+
 Seleccionar el instalador según el sistema operativo
 
