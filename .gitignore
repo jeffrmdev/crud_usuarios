@@ -1,0 +1,28 @@
+# .gitignore
+
+# Carpeta virtualenv
+venv/
+
+# Archivos de configuración local
+*.env
+
+# Archivos de configuración de Django
+*.pyc
+*.pyo
+__pycache__/
+*.db.sqlite3
+db.sqlite3
+
+
+# Archivos generados durante la ejecución del proyecto
+/media/
+/static/
+__pycache__/
+*.pyc
+*.pyo
+
+# Carpeta de migraciones generadas por Django
+/migrations/
+
+# Archivo de configuración de entorno local
+.env
