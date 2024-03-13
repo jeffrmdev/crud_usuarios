@@ -10,23 +10,23 @@
     <form action="{% url 'crear' %}" method="POST" class="bg-white p-4 shadow-md rounded-md"> {% csrf_token %}
         <!-- Campos del formulario -->
         <div class="mb-4">
-            <label for="nombre" class="block text-gray-700">Nombre:</label>
+            <label for="name" class="block text-gray-700">Nombre:</label>
             <input type="text" id="name" name="name" class="border w-full p-2 rounded-md" required>
         </div>
         <div class="mb-4">
-            <label for="correo" class="block text-gray-700">Apellido:</label>
+            <label for="last_name" class="block text-gray-700">Apellido:</label>
             <input type="text" id="last_name" name="last_name" class="border w-full p-2 rounded-md" required>
         </div>
         <div class="mb-4">
-            <label for="correo" class="block text-gray-700">Correo:</label>
+            <label for="email" class="block text-gray-700">Correo:</label>
             <input type="email" id="email" name="email" class="border w-full p-2 rounded-md" required>
         </div>
         <div class="mb-4">
-            <label for="correo" class="block text-gray-700">Cedula:</label>
+            <label for="cedula" class="block text-gray-700">Cedula:</label>
             <input type="text" id="cedula" name="cedula" class="border w-full p-2 rounded-md" required>
         </div>
         <div class="mb-4">
-            <label for="correo" class="block text-gray-700">Telefono:</label>
+            <label for="phone" class="block text-gray-700">Telefono:</label>
             <input type="text" id="phone" name="phone" class="border w-full p-2 rounded-md" required>
         </div>
         <!-- Botón de enviar -->
