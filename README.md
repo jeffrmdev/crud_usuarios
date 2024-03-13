@@ -15,21 +15,19 @@ pip install pipenv
 pipenv --venv
 ```
 
-###Instalar dependencias
+### Instalar dependencias
 
 ```
 pip install -r requirements.txt
-
 ```
 ### Aplicar migraciones y creación del usuario
 
 ```
 python manage.py migrate
 python manage.py createsuperuser #opcional
-
 ```
 
-### Ejecutar la aplicacion
+## Ejecutar la aplicacion
 ```
 python manage.py runserver
 ``` 
