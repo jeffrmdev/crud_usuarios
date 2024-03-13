@@ -1,4 +1,5 @@
 # CRUD_Usuarios
+![Django Logo](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)![Tailwind Logo](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
 
 Esta aplicación permite crear, leer, actualizar y eliminar usuarios de forma rápida y sencilla
 
